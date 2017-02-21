@@ -1,4 +1,5 @@
-# Core Data Structures
+# Core Data Structures - Basic
+Team: massive-shark
 
 Tests and implementations for common data structures. See the full list in the [data-structures.md](data-structures.md) file.
 
