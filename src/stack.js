@@ -9,18 +9,21 @@ export default class Stack {
   push(anElement) {
     this.stack[this.top++] = anElement
   }
-
+// returns and removes the top element in the stack or null if the stack is empty
   pop() {
+    if(this.stack.length == 0) {return null
+    }
+
     return this.stack[this.top--];
   }
   peek() {
-    return this.collection[this.top-1]
+    return this.stack[this.top-1]
   }
 
   isEmpty() {
-    return this.collection.length <= 0
+    return this.stack.length <= 0
   }
-  length() {
-    return this.top
+  myLength() {
+    return this.length
   }
 }
