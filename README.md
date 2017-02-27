@@ -15,7 +15,6 @@ Base repository for the [Core Data Structures](https://github.com/GuildCrafts/we
 3. From the command line, type "npm test"
    $ npm test
 
-
 ## Usage and Examples
 
 You will see this:
